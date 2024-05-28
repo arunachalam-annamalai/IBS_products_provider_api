@@ -1,0 +1,22 @@
+{
+  "providers": [
+    {
+      "name": "ProviderA",
+      "url": "classpath:providerA_response.json",
+      "mappings": {
+        "id": "productId",
+        "productName": "productName",
+        "description": "productDescription"
+      }
+    },
+    {
+      "name": "ProviderB",
+      "url": "classpath:providerB_response.json",
+      "mappings": {
+        "id": "id",
+        "productName": "name",
+        "description": "content"
+      }
+    }
+  ]
+}
